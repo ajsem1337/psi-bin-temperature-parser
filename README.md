@@ -1,5 +1,7 @@
 # BIN temperature logger parser
 
+![Made with AI](https://img.shields.io/badge/Made%20with-AI-76ddcf)
+
 Small Python script to extract temperature logs from proprietary `.BIN` files
 produced by data loggers using `de c0 ba b0` record markers.
 
@@ -74,6 +76,10 @@ accepted records are held in memory; very large logs may require substantial
 RAM. No real BIN samples are included in this repository; tests use synthetic
 records and cannot establish compatibility with every logger.
 
+The parser runs locally as ordinary Python code and does not send log data to
+an external service. Check the inferred binary format against known measurements
+before relying on exported readings.
+
 ## Tests
 
 ```bash
@@ -82,8 +88,4 @@ python3 -m unittest discover -s tests -v
 
 ## AI assistance
 
-AI assistance was used for code review, fixes, regression tests and documentation.
-The parser itself runs locally as ordinary Python code: it does not use an AI
-model or send log data to an external service. AI assistance does not validate
-the inferred binary format; check exported readings against known measurements
-before relying on them.
+**Made with AI.** This project was developed with AI assistance, including code, documentation, and testing.
