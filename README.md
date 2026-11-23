@@ -1,6 +1,6 @@
 # BIN temperature logger parser
 
-![Made with AI](https://img.shields.io/badge/Made%20with-AI-76ddcf)
+![Made with AI](https://raw.githubusercontent.com/ajsem1337/ajsem1337/main/assets/made-with-ai.svg)
 
 Small Python script to extract temperature logs from proprietary `.BIN` files
 produced by data loggers using `de c0 ba b0` record markers.
@@ -22,7 +22,7 @@ API keys are required. Keep both scripts alongside `temperature_parser.py`.
 
 ## Usage
 
-```bash
+```sh
 python3 bin2csv.py DATA.BIN out.csv
 python3 bin2csv_split.py DATA.BIN outprefix
 ```
@@ -82,10 +82,10 @@ before relying on exported readings.
 
 ## Tests
 
-```bash
+```sh
 python3 -m unittest discover -s tests -v
 ```
 
-## AI assistance
+---
 
-**Made with AI.** This project was developed with AI assistance, including code, documentation, and testing.
+<p align="center"><sub>Built by <a href="https://github.com/ajsem1337">ajsem</a> with AI assistance.</sub></p>
